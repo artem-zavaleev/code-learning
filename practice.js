@@ -1,7 +1,7 @@
-const firstName = "Artem";
-const city = "Porto";
-let age = 40;
+const age = 17;
 
-console.log(firstName);
-console.log(city);
-console.log(age);
+if (age >= 18) {
+    console.log("Welcome!");
+} else {
+    console.log("You are to young");
+}
